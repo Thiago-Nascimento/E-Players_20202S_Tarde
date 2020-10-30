@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
+:root{
+    
+    --background: #000000;
+    --red: #C20000;
+    --blue: #001F70;
+    --gradient: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    
+    --font: 'Titillium Web', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background);
+    font-family: var(--font);
+    font-size: 16px;
+}
+img{
+    width: 100%;
+}
+.header-top{
+    width: 100%;
+    height: 5em;
+    /* background-color: aliceblue; */
+}
+.content{
+    width: 100%;
+    max-width: 75em;
+    height: 100%;
+    /* background-color: aqua; */
+    margin: auto;
+}
+.flex-spbt-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top img{
+    max-width: 21.18em;
+}
+.menu{
+    width: 100%;
+    max-width: 50em;
+}
+.menu ul{
+    list-style-type: none;
+
+}
+.menu a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 0.9em 0.66em;
+}
+.menu a:hover{
+    background-color: var(--red);
+    text-shadow: 0 0 20px #fff;
+    text-decoration: underline;
+}
+#menu-bars{
+    display: none;
+}
+.banner{
+    position: relative;
+}
+.banner-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(127, 255, 212, 0.39); */
+    position: absolute;
+    top: 0;
+}
+.banner-content{
+    width: 80%;
+    height: 100%;
+    /* background-color: rgba(255, 235, 205, 0.384); */
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.banner-text{
+    width: 50%;
+    height: 100%;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+.banner-text h1{
+    font-size: 5.62em;
+}
+.banner-text p{
+    font-size: 1.87em;
+}
+.banner-text a{
+    color:#fff;
+    font-size: 1.87em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--red);
+    padding: 0.5em 1.2em;
+    border-radius: 0.75em;
+    margin-top: 2em;
+}
+.games{
+    width: 100%;
+    height: 7.5em;
+    /* background-color: yellow; */
+}
+.games ul{
+    width: 100%;
+    /* background-color: red; */
+    list-style-type: none;
+}
+.games img{
+    width: 170px;
+  
+}
+.games ul a:hover img{
+    transition: 0.5s;
+    transform:scale(1.5);
+}
+
+.about {
+    height: 31.25em;
+    background-color: var(--blue);
+
+    position: relative;
+}
+
+.about-angulation {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.angulation {
+    height: 24.125em;
+    width: 100%;
+    background-color: var(--background);
+
+    transform: skewY(-4deg);   
+}
+
+.container-about {
+    color: white;
+    position: absolute;
+    top: 0
+}
+
+.content-about {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-about {
+    width: 50%;
+    text-align: justify;
+}
+
+.text-about h2 {
+    margin-bottom: 1em;
+    font-size: 2.1875em;
+}
+
+.text-about p {
+    font-size: 1.25em;
+}
+
+.content-about img {
+    max-width: 31.875em;
+}
+
+
+/* Até 1199px */
+@media screen and (max-width: 74.93em){
+
+}
+/* Até 991px */
+@media screen and (max-width: 61.93em){
+    
+}
+/* até 767px */
+@media screen and (max-width: 47.93em){
+   
+}
+/* Até 576px */
+@media screen and (max-width: 36em){
+
+}
